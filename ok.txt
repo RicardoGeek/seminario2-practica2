@@ -1,0 +1,7 @@
+vi /usr/local/hadoop/etc/hadoop/yarn-site.xml
+
+<property>
+   <name>yarn.nodemanager.disk-health-checker.enable</name>
+   <value>false</value>
+</property>
+
